@@ -1,0 +1,32 @@
+{
+	"finland": {
+		"validation": {
+			"source": {
+				"is_valid_schema": {
+					"finland.sourced.schema.json": true
+				}
+			},
+			"extract": {
+				"is_valid_schema": {
+					"package.extracted.schema.json": true
+				},
+				"is_valid_data": {
+					"finland.1.extracted.data.csv": true,
+					"finland.2.extracted.data.csv": true
+				},
+			},
+			"transform": {
+				"is_valid_schema": {
+					"finland.transformed.schema.json": true
+				},
+				"is_valid_data": {
+					"finland.1.transformed.data.csv": true,
+					"finland.2.transformed.data.csv": true
+				}
+			}
+		},
+		"upload": true
+		},
+		"watches"
+
+}

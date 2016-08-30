@@ -1,0 +1,21 @@
+execution:
+  started: 12:23:45 UTC
+  finished: 13:24:46 UTC
+
+validation:
+  FN.2007-2014.sourced.schema.json: valid
+  FN.2014-2022.sourced.schema.json: valid
+  FN.2007-2014.extracted.data.csv: valid
+  FN.2014-2022.extracted.data.1.csv: valid
+  FN.2014-2022.extracted.data.2.csv: valid
+  FN.2007-2014.transformed.schema.json: valid
+  FN.2014-2022.transformed.schema.json: valid
+  FN.2007-2014.transformed.data.csv: valid
+  FN.2014-2022.transformed.data.1.csv: valid
+  FN.2014-2022.transformed.data.2.csv: invalid
+
+errors:
+  FN.2014-2022.transformed.data.2.csv: 
+    - error message number 1
+    - error message number 2
+

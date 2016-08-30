@@ -1,0 +1,9 @@
+validation:
+  - source:
+      schema: base
+  - extract:
+      schema: base
+      tables: base
+  - transform:
+      schema: fiscal
+      tables: base
